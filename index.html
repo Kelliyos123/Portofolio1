@@ -722,23 +722,23 @@
                     <div class="contact__content">
                         <h3 class="contact__title">Write me your project</h3>
 
-                        <form action="" class="contact__form">
+                        <form action="email.php" method="post" class="contact__form">
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Names</label>
-                                <input type="text" placeholder="insert your name" class="contact__form-input">
+                                <input type="text" name="name" placeholder="insert your name" class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div">
                                 <label for="" class="contact__form-tag">Mail</label>
-                                <input type="text" placeholder="insert your email " class="contact__form-input">
+                                <input type="email" name="email" placeholder="insert your email " class="contact__form-input">
                             </div>
 
                             <div class="contact__form-div contact__form-area">
                                 <label for="" class="contact__form-tag">Project</label>
-                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
+                                <textarea name="textarea" type="text" id="" cols="30" rows="10" placeholder="Write your project" class="contact__form-input"></textarea>
                             </div>
 
-                            <button class="button">Send Message</button>
+                            <button class="button" type="submit">Send Message</button>
                         </form>
                     </div>
                 </div>
