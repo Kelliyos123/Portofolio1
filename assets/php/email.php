@@ -3,12 +3,12 @@
 //get data from form  
 $name = $_POST['name'];
 $email= $_POST['email'];
-$textarea= $_POST['textarea'];
+$description= $_POST['description'];
 
 $to = "kelliyosantoni23@mail.com";
 $subject = "Mail From website prtofolio1";
-$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Textarea =" . $textarea;
-$headers = "From: noreply@yoursite.com" . "\r\n" .
+$txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Description =" . $description;
+$headers = "From: noreply@portof1.com" . "\r\n" .
 "CC: somebodyelse@example.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
