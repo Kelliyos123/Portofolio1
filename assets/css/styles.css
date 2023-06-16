@@ -14,9 +14,9 @@
         Teal: hsl(174, 63%, 62%)
         66 , 70 , 62
   */
-  --first-hue: 174;
-  --sat: 63%;
-  --lig: 62%;
+  --first-hue: 207;
+  --sat: 66%;
+  --lig: 75%;
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 68%); /* -4% */
@@ -190,8 +190,7 @@ body.light-theme{
 }
 
 .light-theme .home__negara span{
-  -webkit-text-stroke: .65px var(--first-color);
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: red;
 }
 
 /*============== REUSABLE CSS CLASSES ===============*/
