@@ -64,10 +64,10 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
 
     breakpoints: {
             576: {
-            slidesPerView: 2,
+            slidesPerView: 1, //kalau mau ngubah tampilan per swipenya, misal mau 2 atau 4 //
             },
             768: {
-            slidesPerView: 4,
+            slidesPerView: 1, //kalau mau ngubah tampilan per swipenya, misal mau 2 atau 4 //
             spaceBetween: 48,
             },
 
